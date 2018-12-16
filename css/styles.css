@@ -12,7 +12,7 @@ body .header .navbar {
   background: #319ec0;
 }
 body .header .navbar .navbar-brand img {
-  width: 50%;
+  width: 250px;
 }
 body .main {
   background: url(../images/bg-main.png) 50% center no-repeat;
