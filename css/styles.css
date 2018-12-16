@@ -1,0 +1,86 @@
+body {
+  font-family: 'Montserrat Alternates', sans-serif;
+}
+body .header a {
+  moz-transition: all 0.4s ease-in-out;
+  -o-transition: all 0.4s ease-in-out;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+body .header .navbar {
+  padding: 5px 5%;
+  background: #319ec0;
+}
+body .header .navbar .navbar-brand img {
+  width: 50%;
+}
+body .main {
+  background: url(../images/bg-main.png) 50% center no-repeat;
+  background-size: cover;
+  height: 635px;
+}
+body .main h1 {
+  padding: 40% 0 0;
+  font-size: 40px;
+  font-weight: 800;
+  font-style: italic;
+}
+body .main .slogan {
+  font-size: 25px;
+  font-weight: 400;
+  padding-left: 35px;
+  line-height: 30px;
+}
+body .main .main_next {
+  margin-top: 75px;
+  margin-left: 35px;
+}
+body .main .main_next a {
+  padding: 15px 35px;
+  color: #fff;
+  border: none;
+  background-image: linear-gradient(to right, #25aae1, #40e495, #30dd8a, #2bb673);
+  box-shadow: 0 4px 15px 0 rgba(49, 196, 190, 0.75);
+  font-size: 20px;
+  font-weight: 600;
+  text-decoration: none;
+  border-radius: 50px;
+  background-size: 300% 100%;
+  moz-transition: all 0.4s ease-in-out;
+  -o-transition: all 0.4s ease-in-out;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+body .main .main_next a:hover {
+  background-position: 100% 0;
+}
+body .main .main_next a:focus {
+  outline: none;
+}
+body .main .socials {
+  margin-top: 100px;
+  margin-left: 30px;
+}
+body .main .socials ul.hr {
+  margin: 0;
+  padding: 5px;
+}
+body .main .socials ul.hr li {
+  display: inline;
+  list-style-type: none;
+  margin-right: 18px;
+}
+body .main .socials ul.hr li img {
+  width: 7%;
+  opacity: 0.5;
+  moz-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+body .main .socials ul.hr li img:hover {
+  -webkit-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
+  opacity: 1;
+}
