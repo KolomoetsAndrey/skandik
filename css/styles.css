@@ -15,7 +15,7 @@ body .header .navbar .navbar-brand img {
   width: 250px;
 }
 body .main {
-  background: url(../images/bg-main.png) 50% center no-repeat;
+  background: url(../images/bg-main.jpg) 50% center no-repeat;
   background-size: cover;
   height: 635px;
 }
