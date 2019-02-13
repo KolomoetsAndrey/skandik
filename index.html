@@ -1,72 +1,72 @@
 <!DOCTYPE html>
-<html lang="uk">
+<html lang="ua">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!--SEO-->
     <title>Document</title>
+    <!--Fonts-->
+    <link
+        href="https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&amp;subset=cyrillic"
+        rel="stylesheet">
+    <!--CSS-->
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/styles.css">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat+Alternates:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&amp;subset=cyrillic" rel="stylesheet">
 </head>
 <body>
-    <header class="header" id="header">
-        <nav class="navbar navbar-expand-md navbar-light fixed-top">
-            <a class="navbar-brand" href="#">
-                <img src="images/logo.png" alt="" class="logo">
-            </a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarCollapse">
-                <ul class="navbar-nav ml-auto">
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Головна</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Історія</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Партнери</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Галерея</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Відгуки</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Контакти</a>
-                    </li>
-                </ul>
-            </div>
-        </nav>
-    </header>
-
-    <section class="main" id="main">
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-6 col-12">
-                    <h1>Скандінавська ходьба</h1>
-                    <p class="slogan">Оздоровчий фітнес для Вас і всієї Вашої родини</p>
-                    <div class="main_next">
-                        <a href="#">Детальніше</a>
-                    </div>
-                    <div class="socials">
-                        <ul class="hr">
-                            <li><a href="#"><img src="images/social/facebook.png" alt=""></a></li>
-                            <li><a href="#"><img src="images/social/instagram.png" alt=""></a></li>
-                            <li><a href="#"><img src="images/social/twitter.png" alt=""></a></li>
-                            <li><a href="#"><img src="images/social/youtube.png" alt=""></a></li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
+    <!--Navbar-->
+    <nav class="navbar navbar-expand-md navbar-light mb-4">
+    
+        <!-- Navbar brand -->
+        <a class="navbar-brand" href="#">Navbar</a>
+    
+        <!-- Collapse button -->
+        <button class="navbar-toggler first-button" type="button" data-toggle="collapse"
+            data-target="#navbarSupportedContent20" aria-controls="navbarSupportedContent20" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <div class="animated-icon1"><span></span><span></span><span></span></div>
+        </button>
+    
+        <!-- Collapsible content -->
+        <div class="collapse navbar-collapse" id="navbarSupportedContent20">
+    
+            <!-- Links -->
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Features</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Pricing</a>
+                </li>
+            </ul>
+            <!-- Links -->
+    
         </div>
-    </section>
-    <!-- JS -->
+        <!-- Collapsible content -->
+    
+    </nav>
+    <!--/.Navbar-->
+
+
+
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-    <script src="js/bootstrap.min.js"></script>
-</body>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script>
+        $(document).ready(function () {
+                $('.first-button').on('click', function () {
+                    $('.animated-icon1').toggleClass('open');
+                });
+                $('.second-button').on('click', function () {
+                    $('.animated-icon2').toggleClass('open');
+                });
+                $('.third-button').on('click', function () {
+                    $('.animated-icon3').toggleClass('open');
+                });
+            });
+    </script>
 </html>
