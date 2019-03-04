@@ -30,6 +30,15 @@ body {
 .navbar .navbar-brand {
   font-weight: 800;
 }
+.block-title {
+  color: white;
+}
+.icard img {
+  width: 200px;
+}
+.centered {
+  text-align: center;
+}
 .navbar-dark .navbar-nav .nav-link {
   color: white;
 }
@@ -38,7 +47,7 @@ body {
   background-position: center top;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 578px;
+  height: 580px;
 }
 .main .main-logo {
   margin-top: 5%;
@@ -79,4 +88,151 @@ body {
   font-size: 35px;
   font-weight: 700;
   text-shadow: white 1px 1px 0, white -1px -1px 0, white -1px 1px 0, white 1px -1px 0;
+}
+.items-title {
+  position: relative;
+  height: 120px;
+  background-image: linear-gradient(#00912c, #008647);
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0 calc(70%));
+}
+.items {
+  background-color: white;
+}
+.items .icard {
+  padding-top: 15px;
+  border: 1px solid #00864738;
+  padding-right: 5px;
+  padding-left: 5px;
+  padding-bottom: 40px;
+}
+.items .icard img {
+  width: 100%;
+  padding: 15px;
+}
+.items .by-it {
+  font-weight: 500;
+  color: black;
+  padding: 10px 25px;
+  border: 1px solid black;
+  background: #00864747;
+}
+.items .by-it:hover {
+  color: #008647;
+  border: 1px solid #008647;
+  text-decoration: none;
+}
+.items .goto-card a {
+  color: white;
+  padding: 10px 25px;
+  border: 1px solid black;
+  background: black;
+}
+.items .goto-card a:hover {
+  color: #008647;
+  text-decoration: none;
+}
+.history-title {
+  position: relative;
+  height: 120px;
+  background-image: linear-gradient(#00912c, #008647);
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0 calc(70%));
+}
+.history img {
+  width: 100%;
+}
+.history .history-info a {
+  color: black;
+  font-weight: 500;
+}
+.history .history-info a:hover {
+  color: #008647;
+  text-decoration: none;
+}
+.partners-title {
+  position: relative;
+  height: 120px;
+  background-image: linear-gradient(#00912c, #008647);
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0 calc(70%));
+}
+.partners .partner-card a {
+  color: black;
+  font-size: 15px;
+}
+.partners .partner-card a:hover {
+  color: #008647;
+  text-decoration: none;
+}
+.partners .partner-card .pcard {
+  padding-top: 15px;
+  border: 1px solid #00864738;
+  padding-right: 5px;
+  padding-left: 5px;
+  padding-bottom: 15px;
+}
+.partners .partner-card .pcard img {
+  width: 100%;
+  padding: 15px;
+}
+.partners .partner-card .pcard h4 {
+  color: #008647;
+}
+.partners .goto-partners a {
+  color: white;
+  padding: 10px 25px;
+  border: 1px solid black;
+  background: black;
+}
+.partners .goto-partners a:hover {
+  color: #008647;
+  text-decoration: none;
+}
+.gallery-title {
+  position: relative;
+  height: 120px;
+  background-image: linear-gradient(#00912c, #008647);
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0 calc(70%));
+}
+.img-gallery img {
+  width: 100%;
+}
+.testimonials-title {
+  position: relative;
+  height: 120px;
+  background-image: linear-gradient(#00912c, #008647);
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0 calc(70%));
+}
+.testimonials img {
+  width: 250px;
+  padding: 15px 0;
+}
+.footer {
+  background-color: #008647;
+}
+.footer .footer-logo img {
+  width: 70%;
+}
+.footer .footer-contacts {
+  line-height: 10px;
+  color: white;
+}
+.footer .footer-contacts h5 {
+  border-bottom: 1px solid white;
+}
+.footer .footer-contacts p {
+  font-size: 15px;
+}
+.footer .footer-contacts ul {
+  display: flex;
+  margin-left: -40px;
+  list-style-type: none;
+}
+.footer .footer-contacts ul li img {
+  width: 20px;
+  margin-right: 15px;
+  opacity: 0.5;
+  transition: all 0.4s ease-in-out 0s;
+}
+.footer .footer-contacts ul li img:hover {
+  transform: scale(1.2);
+  opacity: 1;
 }

@@ -35,6 +35,20 @@ html, body {
     }
 }
 
+.block-title {
+    color: white;
+}
+
+.icard {
+    img {
+        width: 200px;
+    }
+}
+
+.centered {
+    text-align: center;
+}
+
 .navbar-dark {
     .navbar-nav {
         .nav-link {
@@ -48,7 +62,7 @@ html, body {
     background-position: center top;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 578px;
+    height: 580px;
 
     .main-logo {
         margin-top: 5%;
@@ -101,4 +115,208 @@ html, body {
     font-weight: 700;
     text-shadow: white 1px 1px 0, white -1px -1px 0, 
                  white -1px 1px 0, white 1px -1px 0;
+}
+
+.items-title {
+    position: relative;
+    height: 120px;
+    background-image: linear-gradient(#00912c, #008647);
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 calc(70%));
+}
+
+.items {
+    background-color: white;
+
+    .icard {
+        padding-top: 15px;
+        border: 1px solid #00864738;
+        //border-radius: 10px;
+        padding-right: 5px;
+        padding-left: 5px;
+        padding-bottom: 40px;
+
+        img {
+            width: 100%;
+            padding: 15px;
+        }
+    }
+
+    .by-it {
+        font-weight: 500;
+        color: black;
+        padding: 10px 25px;
+        border: 1px solid black;
+       //border-radius: 10px;
+        background: #00864747;
+
+        &:hover {
+            color: #008647;
+            border: 1px solid #008647;
+            text-decoration: none;
+        }
+    }
+
+    .goto-card {
+        a {
+            color: white;
+            padding: 10px 25px;
+            border: 1px solid black;
+            //border-radius: 10px;
+            background: black;
+
+            &:hover {
+                color: #008647;
+                text-decoration: none;
+            }
+        }
+    }
+}
+
+.history-title {
+    position: relative;
+    height: 120px;
+    background-image: linear-gradient(#00912c, #008647);
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 calc(70%));
+}
+
+.history {
+    img {
+        width: 100%;
+    }
+
+    .history-info {
+        a {
+            color: black;
+            font-weight: 500;
+
+            &:hover {
+                color: #008647;
+                text-decoration: none;
+            }
+        }
+    }
+}
+
+.partners-title {
+    position: relative;
+    height: 120px;
+    background-image: linear-gradient(#00912c, #008647);
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 calc(70%));
+}
+
+.partners {
+    .partner-card {
+        a {
+            color: black;
+            font-size: 15px;
+
+            &:hover {
+                color: #008647;
+                text-decoration: none;
+            }
+        }
+
+        .pcard {
+            padding-top: 15px;
+            border: 1px solid #00864738;
+            //border-radius: 10px;
+            padding-right: 5px;
+            padding-left: 5px;
+            padding-bottom: 15px;
+
+            img {
+                width: 100%;
+                padding: 15px;
+            }
+
+            h4 {
+                color: #008647;
+            }
+        }
+    }
+
+    .goto-partners {
+        a {
+            color: white;
+            padding: 10px 25px;
+            border: 1px solid black;
+            //border-radius: 10px;
+            background: black;
+
+            &:hover {
+                color: #008647;
+                text-decoration: none;
+            }
+        }
+    }
+}
+
+.gallery-title {
+    position: relative;
+    height: 120px;
+    background-image: linear-gradient(#00912c, #008647);
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 calc(70%));
+}
+
+.img-gallery {
+    img {
+        width: 100%;
+    }
+}
+
+.testimonials-title {
+    position: relative;
+    height: 120px;
+    background-image: linear-gradient(#00912c, #008647);
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 calc(70%));
+}
+
+.testimonials {
+    img {
+        width: 250px;
+        padding: 15px 0;
+    }
+}
+
+.footer {
+    background-color: #008647;
+
+    .footer-logo {
+        img {
+            width: 70%;
+        }
+    }
+
+    .footer-contacts {
+        line-height: 10px;
+        color: white;
+
+        h5 {
+            border-bottom: 1px solid white;
+        }
+
+        p {
+            font-size: 15px;
+        }
+
+        ul {
+            display: flex;
+            margin-left: -40px;
+            list-style-type: none;
+
+            li {
+                img {
+                    width: 20px;
+                    margin-right: 15px;
+                    opacity: 0.5;
+                    transition: all 0.4s ease-in-out 0s;
+
+                    &:hover {
+                        transform: scale(1.2);
+                        opacity: 1;
+                    }
+                }
+            }
+        }
+    }
 }
