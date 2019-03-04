@@ -115,6 +115,7 @@ body {
   padding: 10px 25px;
   border: 1px solid black;
   background: #00864747;
+  box-shadow: 0 0 30px rgba(16, 14, 23, 0.25);
 }
 .items .by-it:hover {
   color: #008647;
