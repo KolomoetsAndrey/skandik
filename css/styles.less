@@ -279,6 +279,68 @@ html, body {
     }
 }
 
+.store {
+    .list-group-item:first-child {
+        border-top-left-radius: 0;
+        border-top-right-radius: 0;
+    }
+
+    .list-group-item:last-child {
+        border-bottom-right-radius: 0;
+        border-bottom-left-radius: 0;
+    }
+
+    .list-group-item.active {
+        background-color: #008647;
+        border-color: #008647;
+    }
+    
+    .icard {
+        padding-top: 15px;
+        border: 1px solid #00864738;
+        //border-radius: 10px;
+        padding-right: 5px;
+        padding-left: 5px;
+        padding-bottom: 40px;
+
+        img {
+            width: 100%;
+            padding: 15px;
+        }
+    }
+
+    .by-it {
+        font-weight: 500;
+        color: black;
+        padding: 10px 15px;
+        border: 1px solid black;
+        background: #00864747;
+        box-shadow: 0 0 30px rgba(16,14,23,.25);
+
+        &:hover {
+            color: #008647;
+            border: 1px solid #008647;
+            text-decoration: none;
+        }
+    }
+
+    .goto-card {
+        a {
+            color: white;
+            padding: 10px 25px;
+            border: 1px solid black;
+            //border-radius: 10px;
+            background: black;
+
+            &:hover {
+                color: #008647;
+                text-decoration: none;
+            }
+        }
+    }
+
+}
+
 .footer {
     background-color: #008647;
 
