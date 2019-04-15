@@ -193,6 +193,16 @@ body {
   background-image: linear-gradient(#00912c, #008647);
   clip-path: polygon(0 0, 100% 0, 100% 100%, 0 calc(70%));
 }
+.gallery .goto-gallery a {
+  color: white;
+  padding: 10px 25px;
+  border: 1px solid black;
+  background: black;
+}
+.gallery .goto-gallery a:hover {
+  color: #008647;
+  text-decoration: none;
+}
 .img-gallery img {
   width: 100%;
 }
@@ -251,6 +261,9 @@ body {
 .store .goto-card a:hover {
   color: #008647;
   text-decoration: none;
+}
+.contacts img {
+  width: 100%;
 }
 .footer {
   background-color: #008647;
