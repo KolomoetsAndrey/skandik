@@ -109,6 +109,7 @@ body {
 .items .icard {
   padding-top: 15px;
   border: 1px solid #00864738;
+  border-radius: 10px;
   padding-right: 5px;
   padding-left: 5px;
   padding-bottom: 40px;
@@ -122,19 +123,21 @@ body {
   color: black;
   padding: 10px 25px;
   border: 1px solid black;
+  border-radius: 10px;
   background: #00864747;
-  box-shadow: 0 0 30px rgba(16, 14, 23, 0.25);
   transition: all 0.2s;
 }
 .items .by-it:hover {
   color: #008647;
   border: 1px solid #008647;
   text-decoration: none;
+  box-shadow: 0 0 30px rgba(16, 14, 23, 0.25);
 }
 .items .goto-card a {
   color: white;
   padding: 10px 25px;
   border: 1px solid black;
+  border-radius: 10px;
   background: black;
   transition: all 0.2s;
 }
@@ -150,6 +153,7 @@ body {
 }
 .history img {
   width: 100%;
+  border-radius: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
   -moz-box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
   -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
@@ -182,6 +186,7 @@ body {
 .partners .partner-card .pcard {
   padding-top: 15px;
   border: 1px solid #00864738;
+  border-radius: 10px;
   padding-right: 5px;
   padding-left: 5px;
   padding-bottom: 15px;
@@ -197,6 +202,7 @@ body {
   color: white;
   padding: 10px 25px;
   border: 1px solid black;
+  border-radius: 10px;
   background: black;
   transition: all 0.2s;
 }
@@ -217,6 +223,7 @@ body {
   color: white;
   padding: 10px 25px;
   border: 1px solid black;
+  border-radius: 10px;
   background: black;
   transition: all 0.2s;
 }
@@ -251,12 +258,14 @@ body {
 }
 .testimonials img {
   width: 250px;
-  padding: 15px 0;
+  margin: 15px 0;
+  border-radius: 10px;
 }
 .testimonials .goto-testimonials a {
   color: white;
   padding: 10px 25px;
   border: 1px solid black;
+  border-radius: 10px;
   background: black;
   transition: all 0.2s;
 }
@@ -279,6 +288,7 @@ body {
 .store .icard {
   padding-top: 15px;
   border: 1px solid #00864738;
+  border-radius: 10px;
   padding-right: 5px;
   padding-left: 5px;
   padding-bottom: 40px;
@@ -292,19 +302,21 @@ body {
   color: black;
   padding: 10px 15px;
   border: 1px solid black;
+  border-radius: 10px;
   background: #00864747;
-  box-shadow: 0 0 30px rgba(16, 14, 23, 0.25);
   transition: all 0.2s;
 }
 .store .by-it:hover {
   color: #008647;
   border: 1px solid #008647;
   text-decoration: none;
+  box-shadow: 0 0 30px rgba(16, 14, 23, 0.25);
 }
 .store .goto-card a {
   color: white;
   padding: 10px 25px;
   border: 1px solid black;
+  border-radius: 10px;
   background: black;
   transition: all 0.2s;
 }
@@ -314,6 +326,7 @@ body {
 }
 .contacts img {
   width: 100%;
+  border-radius: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
   -moz-box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
   -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
