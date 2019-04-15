@@ -116,6 +116,7 @@ body {
   border: 1px solid black;
   background: #00864747;
   box-shadow: 0 0 30px rgba(16, 14, 23, 0.25);
+  transition: all 0.2s;
 }
 .items .by-it:hover {
   color: #008647;
@@ -127,6 +128,7 @@ body {
   padding: 10px 25px;
   border: 1px solid black;
   background: black;
+  transition: all 0.2s;
 }
 .items .goto-card a:hover {
   color: #008647;
@@ -140,10 +142,15 @@ body {
 }
 .history img {
   width: 100%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
+  -moz-box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
+  -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
+  -o-box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
 }
 .history .history-info a {
   color: black;
   font-weight: 500;
+  transition: all 0.2s;
 }
 .history .history-info a:hover {
   color: #008647;
@@ -158,6 +165,7 @@ body {
 .partners .partner-card a {
   color: black;
   font-size: 15px;
+  transition: all 0.2s;
 }
 .partners .partner-card a:hover {
   color: #008647;
@@ -182,6 +190,7 @@ body {
   padding: 10px 25px;
   border: 1px solid black;
   background: black;
+  transition: all 0.2s;
 }
 .partners .goto-partners a:hover {
   color: #008647;
@@ -193,15 +202,35 @@ body {
   background-image: linear-gradient(#00912c, #008647);
   clip-path: polygon(0 0, 100% 0, 100% 100%, 0 calc(70%));
 }
+.gallery h5 {
+  margin-top: 10px;
+}
 .gallery .goto-gallery a {
   color: white;
   padding: 10px 25px;
   border: 1px solid black;
   background: black;
+  transition: all 0.2s;
 }
 .gallery .goto-gallery a:hover {
   color: #008647;
   text-decoration: none;
+}
+.gallery img {
+  width: 100%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
+  -moz-box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
+  -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
+  -o-box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
+}
+.gallery a {
+  color: #008647;
+  font-weight: 600;
+  transition: all 0.2s;
+}
+.gallery a:hover {
+  text-decoration: none;
+  color: #000;
 }
 .img-gallery img {
   width: 100%;
@@ -215,6 +244,17 @@ body {
 .testimonials img {
   width: 250px;
   padding: 15px 0;
+}
+.testimonials .goto-testimonials a {
+  color: white;
+  padding: 10px 25px;
+  border: 1px solid black;
+  background: black;
+  transition: all 0.2s;
+}
+.testimonials .goto-testimonials a:hover {
+  color: #008647;
+  text-decoration: none;
 }
 .store .list-group-item:first-child {
   border-top-left-radius: 0;
@@ -246,6 +286,7 @@ body {
   border: 1px solid black;
   background: #00864747;
   box-shadow: 0 0 30px rgba(16, 14, 23, 0.25);
+  transition: all 0.2s;
 }
 .store .by-it:hover {
   color: #008647;
@@ -257,6 +298,7 @@ body {
   padding: 10px 25px;
   border: 1px solid black;
   background: black;
+  transition: all 0.2s;
 }
 .store .goto-card a:hover {
   color: #008647;
