@@ -12,6 +12,9 @@ body {
 .item-body p {
   margin-bottom: 0;
 }
+.modal-dialog {
+  margin: 2px auto;
+}
 @keyframes move {
   0% {
     transform: translateZ(0);
@@ -294,6 +297,9 @@ body {
   background-color: #008647;
   border-color: #008647;
 }
+.store .list-group {
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.15);
+}
 .store .icard {
   padding-top: 15px;
   border: 1px solid #00864738;
@@ -332,6 +338,10 @@ body {
 .store .goto-card a:hover {
   color: #008647;
   text-decoration: none;
+}
+.store .modal-content {
+  -webkit-box-shadow: 0 40px 84px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 40px 84px rgba(0, 0, 0, 0.5);
 }
 .contacts img {
   width: 100%;
