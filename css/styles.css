@@ -3,6 +3,15 @@ body {
   font-family: 'Montserrat', sans-serif;
   background-color: white;
 }
+.bold {
+  font-weight: 600;
+}
+.item-body {
+  text-align: left;
+}
+.item-body p {
+  margin-bottom: 0;
+}
 @keyframes move {
   0% {
     transform: translateZ(0);
